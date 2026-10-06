@@ -21,6 +21,10 @@ public enum SharedCredits {
     public static let copyright = "© 2026 Giacomo Ancora"
     /// File of the apps' own licence (GNU GPL version 3).
     public static let appLicenceFile = "GPL-3.0"
+    /// Where people can support the apps (Help menu, Credits window).
+    public static let supportURL = URL(string: "https://buymeacoffee.com/ancoragiacg")!
+    /// The apps' website (downloads and install help).
+    public static let websiteURL = URL(string: "https://giaggito.github.io/Negatives-Positives/")!
 
     public static let libraries: [Credit] = [
         Credit(name: "LibRaw", what: "Reading RAW files", authors: "LibRaw LLC; based on dcraw by Dave Coffin",

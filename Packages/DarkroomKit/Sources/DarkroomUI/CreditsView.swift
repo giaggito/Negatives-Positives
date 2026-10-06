@@ -25,6 +25,12 @@ public struct CreditsView: View {
                     Text("\(SharedCredits.copyright). Free software: you may use, share and change it under the GNU General Public License, version 3. It comes with no warranty.")
                         .font(.system(size: 11)).foregroundStyle(Theme.secondary).fixedSize(horizontal: false, vertical: true)
                     licenceButton(SharedCredits.appLicenceFile, title: "GNU GPL 3.0")
+                    Text("\(app) is free. If you enjoy it, you can support its development:")
+                        .font(.system(size: 11)).foregroundStyle(Theme.secondary).padding(.top, 6)
+                    HStack(spacing: 12) {
+                        Link("Buy me a coffee", destination: SharedCredits.supportURL).font(.system(size: 11, weight: .medium))
+                        Link("Website", destination: SharedCredits.websiteURL).font(.system(size: 11))
+                    }
                 }
                 Text("\(app) builds on the work of others").font(.system(size: 13, weight: .semibold)).foregroundStyle(Theme.text)
                 ForEach(credits) { c in

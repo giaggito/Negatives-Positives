@@ -30,6 +30,10 @@
 <p align="center">Free · No account · No subscription · Works offline · For Macs with Apple silicon (M1 or newer), macOS 14 or newer<br>
 Simple download page: <a href="https://giaggito.github.io/Negatives-Positives/">giaggito.github.io/Negatives-Positives</a></p>
 
+<p align="center">
+  <a href="https://buymeacoffee.com/ancoragiacg"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-support%20the%20apps-1f1f1f?style=flat-square&logo=buymeacoffee&logoColor=white" alt="Buy me a coffee"></a>
+</p>
+
 ---
 
 ## How to install (2 minutes)
@@ -84,6 +88,11 @@ Turn colour and black &amp; white negatives into positives, automatically.
 - **High-quality export** to JPEG or 16-bit TIFF.
 
 ---
+
+## Support
+
+Both apps are free and will stay free. If they are useful to you, you can support their development with a
+coffee: **[buymeacoffee.com/ancoragiacg](https://buymeacoffee.com/ancoragiacg)**. Thank you!
 
 ## Questions or problems?
 

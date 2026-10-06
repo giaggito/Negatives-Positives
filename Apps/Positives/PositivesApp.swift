@@ -1,4 +1,5 @@
 import AppKit
+import DarkroomCore
 import DarkroomUI
 import PositivesCore
 import SwiftUI
@@ -91,6 +92,9 @@ struct PositivesCommands: Commands {
     var body: some Commands {
         CommandGroup(replacing: .help) {
             Button("Credits & Licences") { openWindow(id: "credits") }
+            Divider()
+            Button("Buy Me a Coffee…") { NSWorkspace.shared.open(SharedCredits.supportURL) }
+            Button("Website") { NSWorkspace.shared.open(SharedCredits.websiteURL) }
         }
         CommandGroup(replacing: .newItem) {
             Button("Open…") { model.chooseAndOpen() }.keyboardShortcut("o")
