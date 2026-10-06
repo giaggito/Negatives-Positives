@@ -1,0 +1,68 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "shortDescription" : "Sky segmentation (U-2-Net), from github.com\/xiongzhu666\/Sky-Segmentation-and-Post-processing, MIT License",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 320 × 320)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 320, 320]",
+        "name" : "sky",
+        "type" : "MultiArray"
+      }
+    ],
+    "storagePrecision" : "Mixed (Float16, Int8)",
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 8,
+    "mlProgramOperationTypeHistogram" : {
+      "Ios16.upsampleBilinear" : 38,
+      "Ios16.sigmoid" : 1,
+      "Ios17.conv" : 119,
+      "Ios17.concat" : 51,
+      "Ios17.add" : 11,
+      "Ios16.relu" : 112,
+      "Ios16.constexprAffineDequantize" : 118,
+      "Ios16.maxPool" : 33
+    },
+    "computePrecision" : "Mixed (Float16, Float32, Int32)",
+    "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
+    "availability" : {
+      "macOS" : "14.0",
+      "tvOS" : "17.0",
+      "visionOS" : "1.0",
+      "watchOS" : "10.0",
+      "iOS" : "17.0",
+      "macCatalyst" : "17.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 3 × 320 × 320)",
+        "shortDescription" : "",
+        "shape" : "[1, 3, 320, 320]",
+        "name" : "image",
+        "type" : "MultiArray"
+      }
+    ],
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.version" : "8.1",
+      "com.github.apple.coremltools.source" : "torch==2.4.1",
+      "com.github.apple.coremltools.source_dialect" : "TorchScript"
+    },
+    "generatedClassName" : "SkySegmentation",
+    "method" : "predict"
+  }
+]

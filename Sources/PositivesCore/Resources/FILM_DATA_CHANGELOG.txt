@@ -1,0 +1,11 @@
+FilmData.json is a direct derivative of the spektrafilm profiles by Andrea Volpato
+(https://github.com/andreavolpato/spektrafilm, src/spektrafilm/data/profiles), licensed CC BY-SA 4.0
+(see FILM_DATA_LICENSE.txt). It remains under CC BY-SA 4.0.
+
+Changes made for Positives (2026-10-05):
+- spectral data resampled from 5 nm to 10 nm (380-780 nm) by linear interpolation;
+- only the fields needed by Positives kept (log sensitivity, dye densities, base density,
+  log exposure, density curves, type, reference and viewing illuminants);
+- display names added.
+Also included: CIE 1931 2-degree colour matching functions (CVRL, cvrl.org), CIE daylight basis
+functions (colour-science, BSD-3), Schott KG3 heat-absorbing filter transmission (via spektrafilm).

@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0248038EB4CB1ECA5C360C0A /* NegativesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED84E725C06B8BAC8AEC9427 /* NegativesApp.swift */; };
+		1C247BF28200EF8C38AF3BDC /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BBEA83F31A4798758CE43C /* Renderer.swift */; };
+		2502648975A7CE998C16EB6E /* FilmPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64232525F0A42ACE6862DA0 /* FilmPanel.swift */; };
+		2A03E1D6CEE23521FA47916B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0728BAF6527D6BF00F85793 /* Assets.xcassets */; };
+		2C7745E1FE5A59CEA49FF03F /* DisplayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5464A45CC514C77A27053F /* DisplayRenderer.swift */; };
+		35B1D14ACCFF161C93D9FE7F /* DarkroomUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2C1A2551380D16787D7AB8BB /* DarkroomUI */; };
+		3E51529810CBC23D06DE9285 /* ImageCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9C48148A40E145C02F3F3 /* ImageCanvas.swift */; };
+		41AC485EA91919B9CCC244D6 /* Inspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF7112D04957B0D6D78A037 /* Inspector.swift */; };
+		4EC1182A1D4A0551BCE5C97E /* RenderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B07DB560A8F8496B795873 /* RenderScheduler.swift */; };
+		582A382F885A5598510B1B11 /* DarkroomUI in Frameworks */ = {isa = PBXBuildFile; productRef = D6CF4D0DA4FD16CFB98720D1 /* DarkroomUI */; };
+		5A7EC7D96E838FE88CB75ACE /* LayerEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1929B937FB1589AFA2C205 /* LayerEditing.swift */; };
+		685DB2823CBD984C593FC97E /* RollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FF879D349D2D81DA4FCC05 /* RollModel.swift */; };
+		6BFAF0E6AA42CC1DC7C93BEA /* MaskOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F69EBB453448C3C669E8BF /* MaskOverlay.swift */; };
+		6D7567121A02AD182C316E87 /* PresetsPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12AEF6B242EC2760DEDCEC1 /* PresetsPopover.swift */; };
+		7685BF3139C38D0980E9959D /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01DE17406B5C36C61CF1D04 /* CanvasView.swift */; };
+		868BC6A96F428D73E87BE76E /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAAB14AF486E160CDA03264 /* CropOverlay.swift */; };
+		86AA62267B35A61A7255337A /* CurvesPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFD4E0F497FBD88DC84BED0 /* CurvesPanel.swift */; };
+		86C614E37C598827734A92E4 /* NegativesCore in Frameworks */ = {isa = PBXBuildFile; productRef = B2BDF827331B6B0302275D44 /* NegativesCore */; };
+		8AF233CB76218F77609AABCC /* PositivesCore in Frameworks */ = {isa = PBXBuildFile; productRef = 72304888EDD0795B90F0CEC3 /* PositivesCore */; };
+		8F279FB9676B6C9CB551E59D /* ExportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8A2158EF93E865E4284F8 /* ExportSheet.swift */; };
+		A388D78E0C30D210CACFEE33 /* SelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5572117E3D162CA721108A8 /* SelfTest.swift */; };
+		AE16207BCDEA3F1E0AEEAE9A /* MaskEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E37F700924AD98E1187ADDD /* MaskEditing.swift */; };
+		C1612D606D452DE6B3C0D349 /* MaskPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9733D8B89B731100AB577A /* MaskPanel.swift */; };
+		C30B069243CD3760CA44B8D0 /* PositivesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BF5A21EBA7B427A1EDDD9A /* PositivesApp.swift */; };
+		C581AE5DAE996C199CA124D6 /* EditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153E185CBB3D96DA13F5CEC /* EditorModel.swift */; };
+		C747FFEFC2BD5BC73423D5CF /* ColorPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35601EFFBE418373DBA321E0 /* ColorPanel.swift */; };
+		C7E39C6958ED8E823B7D437C /* LayerPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0B7D3E4B52FF313C637A3B /* LayerPanel.swift */; };
+		CB05ADD95FE799F59914F54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAB958548648ABE780535DB /* Assets.xcassets */; };
+		D8A57C33C13860F3B596FB70 /* Inspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18143B26B0B9C30E120A38D /* Inspector.swift */; };
+		E788318C22843E046B9C46CB /* Panels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A484A3CEE949625BFBF1A938 /* Panels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01B07DB560A8F8496B795873 /* RenderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderScheduler.swift; sourceTree = "<group>"; };
+		02BBEA83F31A4798758CE43C /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		038FB7E71C121E07171B0754 /* Negatives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Negatives.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAAB14AF486E160CDA03264 /* CropOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropOverlay.swift; sourceTree = "<group>"; };
+		35601EFFBE418373DBA321E0 /* ColorPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPanel.swift; sourceTree = "<group>"; };
+		35FF879D349D2D81DA4FCC05 /* RollModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollModel.swift; sourceTree = "<group>"; };
+		4294C3177DB02B310971002B /* Positives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Positives.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4815E8C0A56CED4AE0788220 /* Negatives */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Negatives; path = .; sourceTree = SOURCE_ROOT; };
+		4D9733D8B89B731100AB577A /* MaskPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskPanel.swift; sourceTree = "<group>"; };
+		6153E185CBB3D96DA13F5CEC /* EditorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorModel.swift; sourceTree = "<group>"; };
+		6A0B7D3E4B52FF313C637A3B /* LayerPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerPanel.swift; sourceTree = "<group>"; };
+		6BFD4E0F497FBD88DC84BED0 /* CurvesPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesPanel.swift; sourceTree = "<group>"; };
+		76F69EBB453448C3C669E8BF /* MaskOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskOverlay.swift; sourceTree = "<group>"; };
+		8A1929B937FB1589AFA2C205 /* LayerEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerEditing.swift; sourceTree = "<group>"; };
+		8E37F700924AD98E1187ADDD /* MaskEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskEditing.swift; sourceTree = "<group>"; };
+		9AD9C48148A40E145C02F3F3 /* ImageCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCanvas.swift; sourceTree = "<group>"; };
+		9C5464A45CC514C77A27053F /* DisplayRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayRenderer.swift; sourceTree = "<group>"; };
+		9DF7112D04957B0D6D78A037 /* Inspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspector.swift; sourceTree = "<group>"; };
+		A18143B26B0B9C30E120A38D /* Inspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspector.swift; sourceTree = "<group>"; };
+		A484A3CEE949625BFBF1A938 /* Panels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panels.swift; sourceTree = "<group>"; };
+		B01DE17406B5C36C61CF1D04 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		C64232525F0A42ACE6862DA0 /* FilmPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmPanel.swift; sourceTree = "<group>"; };
+		CB2CD6BA5B3ACB5620737A92 /* DarkroomKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DarkroomKit; path = Packages/DarkroomKit; sourceTree = SOURCE_ROOT; };
+		CFA8A2158EF93E865E4284F8 /* ExportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportSheet.swift; sourceTree = "<group>"; };
+		D0728BAF6527D6BF00F85793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5572117E3D162CA721108A8 /* SelfTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfTest.swift; sourceTree = "<group>"; };
+		D9BF5A21EBA7B427A1EDDD9A /* PositivesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositivesApp.swift; sourceTree = "<group>"; };
+		E12AEF6B242EC2760DEDCEC1 /* PresetsPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetsPopover.swift; sourceTree = "<group>"; };
+		ECAB958548648ABE780535DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED84E725C06B8BAC8AEC9427 /* NegativesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativesApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86AE98C2C9B3B1407FDA8194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C614E37C598827734A92E4 /* NegativesCore in Frameworks */,
+				35B1D14ACCFF161C93D9FE7F /* DarkroomUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99D5CA4FF173A9F0B51F019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF233CB76218F77609AABCC /* PositivesCore in Frameworks */,
+				582A382F885A5598510B1B11 /* DarkroomUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F4FB2DBDD8067C29E905C8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02BBEA83F31A4798758CE43C /* Renderer.swift */,
+				35FF879D349D2D81DA4FCC05 /* RollModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33CE15CFC66C8B744037005E /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				B01DE17406B5C36C61CF1D04 /* CanvasView.swift */,
+				9C5464A45CC514C77A27053F /* DisplayRenderer.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		4C3C5280FFE62987A5DBDF81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35601EFFBE418373DBA321E0 /* ColorPanel.swift */,
+				2AAAB14AF486E160CDA03264 /* CropOverlay.swift */,
+				6BFD4E0F497FBD88DC84BED0 /* CurvesPanel.swift */,
+				CFA8A2158EF93E865E4284F8 /* ExportSheet.swift */,
+				C64232525F0A42ACE6862DA0 /* FilmPanel.swift */,
+				9DF7112D04957B0D6D78A037 /* Inspector.swift */,
+				6A0B7D3E4B52FF313C637A3B /* LayerPanel.swift */,
+				76F69EBB453448C3C669E8BF /* MaskOverlay.swift */,
+				4D9733D8B89B731100AB577A /* MaskPanel.swift */,
+				E12AEF6B242EC2760DEDCEC1 /* PresetsPopover.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		570B524532A78C63333356EB /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CB2CD6BA5B3ACB5620737A92 /* DarkroomKit */,
+				4815E8C0A56CED4AE0788220 /* Negatives */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		69C68AC0080BFBAEF45A00AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				038FB7E71C121E07171B0754 /* Negatives.app */,
+				4294C3177DB02B310971002B /* Positives.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7688326F32C6038DD4F748CE = {
+			isa = PBXGroup;
+			children = (
+				9995B44579F539D551ECB5D3 /* Apps */,
+				570B524532A78C63333356EB /* Packages */,
+				69C68AC0080BFBAEF45A00AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD2162DD5D426EAA0693CDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AD9C48148A40E145C02F3F3 /* ImageCanvas.swift */,
+				A18143B26B0B9C30E120A38D /* Inspector.swift */,
+				A484A3CEE949625BFBF1A938 /* Panels.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		946DFBDB6CE5A018D35A2798 /* Negatives */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB958548648ABE780535DB /* Assets.xcassets */,
+				ED84E725C06B8BAC8AEC9427 /* NegativesApp.swift */,
+				0F4FB2DBDD8067C29E905C8D /* Model */,
+				8CD2162DD5D426EAA0693CDD /* Views */,
+			);
+			path = Negatives;
+			sourceTree = "<group>";
+		};
+		9995B44579F539D551ECB5D3 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				946DFBDB6CE5A018D35A2798 /* Negatives */,
+				C014F254CDD03DE5845D5755 /* Positives */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		C014F254CDD03DE5845D5755 /* Positives */ = {
+			isa = PBXGroup;
+			children = (
+				D0728BAF6527D6BF00F85793 /* Assets.xcassets */,
+				D9BF5A21EBA7B427A1EDDD9A /* PositivesApp.swift */,
+				D5572117E3D162CA721108A8 /* SelfTest.swift */,
+				33CE15CFC66C8B744037005E /* Canvas */,
+				F91EF4F45F2C69491E396376 /* Model */,
+				4C3C5280FFE62987A5DBDF81 /* Views */,
+			);
+			path = Positives;
+			sourceTree = "<group>";
+		};
+		F91EF4F45F2C69491E396376 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6153E185CBB3D96DA13F5CEC /* EditorModel.swift */,
+				8A1929B937FB1589AFA2C205 /* LayerEditing.swift */,
+				8E37F700924AD98E1187ADDD /* MaskEditing.swift */,
+				01B07DB560A8F8496B795873 /* RenderScheduler.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07A467DD0F251FBB2B713DA5 /* Negatives */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBC9C7EEB3C5BC839163F25 /* Build configuration list for PBXNativeTarget "Negatives" */;
+			buildPhases = (
+				232A60F9958F55918FF87A66 /* Sources */,
+				850FDA2F024733A77C7FAC22 /* Resources */,
+				86AE98C2C9B3B1407FDA8194 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Negatives;
+			packageProductDependencies = (
+				B2BDF827331B6B0302275D44 /* NegativesCore */,
+				2C1A2551380D16787D7AB8BB /* DarkroomUI */,
+			);
+			productName = Negatives;
+			productReference = 038FB7E71C121E07171B0754 /* Negatives.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255DEDF0F989DB5599AC363C /* Positives */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB13798945F4D29213F3FCB /* Build configuration list for PBXNativeTarget "Positives" */;
+			buildPhases = (
+				4FFAC4527AAFC727BB12B656 /* Sources */,
+				56A74B37D8664B54F23C6543 /* Resources */,
+				E99D5CA4FF173A9F0B51F019 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Positives;
+			packageProductDependencies = (
+				72304888EDD0795B90F0CEC3 /* PositivesCore */,
+				D6CF4D0DA4FD16CFB98720D1 /* DarkroomUI */,
+			);
+			productName = Positives;
+			productReference = 4294C3177DB02B310971002B /* Positives.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		452BD6336CBFDB0B4023A8AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					07A467DD0F251FBB2B713DA5 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+					255DEDF0F989DB5599AC363C = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = EED809B70D6138CF546BCC18 /* Build configuration list for PBXProject "Darkroom" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7688326F32C6038DD4F748CE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E7AA58F8B17CB09193804D68 /* XCLocalSwiftPackageReference "." */,
+				87008C164D79CC433E43F6CD /* XCLocalSwiftPackageReference "Packages/DarkroomKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 69C68AC0080BFBAEF45A00AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07A467DD0F251FBB2B713DA5 /* Negatives */,
+				255DEDF0F989DB5599AC363C /* Positives */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56A74B37D8664B54F23C6543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A03E1D6CEE23521FA47916B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850FDA2F024733A77C7FAC22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB05ADD95FE799F59914F54C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		232A60F9958F55918FF87A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E51529810CBC23D06DE9285 /* ImageCanvas.swift in Sources */,
+				D8A57C33C13860F3B596FB70 /* Inspector.swift in Sources */,
+				0248038EB4CB1ECA5C360C0A /* NegativesApp.swift in Sources */,
+				E788318C22843E046B9C46CB /* Panels.swift in Sources */,
+				1C247BF28200EF8C38AF3BDC /* Renderer.swift in Sources */,
+				685DB2823CBD984C593FC97E /* RollModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFAC4527AAFC727BB12B656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7685BF3139C38D0980E9959D /* CanvasView.swift in Sources */,
+				C747FFEFC2BD5BC73423D5CF /* ColorPanel.swift in Sources */,
+				868BC6A96F428D73E87BE76E /* CropOverlay.swift in Sources */,
+				86AA62267B35A61A7255337A /* CurvesPanel.swift in Sources */,
+				2C7745E1FE5A59CEA49FF03F /* DisplayRenderer.swift in Sources */,
+				C581AE5DAE996C199CA124D6 /* EditorModel.swift in Sources */,
+				8F279FB9676B6C9CB551E59D /* ExportSheet.swift in Sources */,
+				2502648975A7CE998C16EB6E /* FilmPanel.swift in Sources */,
+				41AC485EA91919B9CCC244D6 /* Inspector.swift in Sources */,
+				5A7EC7D96E838FE88CB75ACE /* LayerEditing.swift in Sources */,
+				C7E39C6958ED8E823B7D437C /* LayerPanel.swift in Sources */,
+				AE16207BCDEA3F1E0AEEAE9A /* MaskEditing.swift in Sources */,
+				6BFAF0E6AA42CC1DC7C93BEA /* MaskOverlay.swift in Sources */,
+				C1612D606D452DE6B3C0D349 /* MaskPanel.swift in Sources */,
+				C30B069243CD3760CA44B8D0 /* PositivesApp.swift in Sources */,
+				6D7567121A02AD182C316E87 /* PresetsPopover.swift in Sources */,
+				4EC1182A1D4A0551BCE5C97E /* RenderScheduler.swift in Sources */,
+				A388D78E0C30D210CACFEE33 /* SelfTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		086FEC1FD6D800A646E7EDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Positives - photo editor";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giacomoancora.positives;
+				PRODUCT_MODULE_NAME = Positives;
+				PRODUCT_NAME = "Positives - photo editor";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2BD9BE79D45F8DF9EEA2D5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Giacomo Ancora. Free software under the GNU GPL v3.";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		58F75CEACD365856659B1575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Negatives;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giacomoancora.negatives;
+				PRODUCT_NAME = Negatives;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		63DBFA174677C5FA2B4DC621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Giacomo Ancora. Free software under the GNU GPL v3.";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7D5CA7B65424899C2ED63E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Positives - photo editor";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giacomoancora.positives;
+				PRODUCT_MODULE_NAME = Positives;
+				PRODUCT_NAME = "Positives - photo editor";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D86EF5272D008DC28A70AAE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Negatives;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giacomoancora.negatives;
+				PRODUCT_NAME = Negatives;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FBC9C7EEB3C5BC839163F25 /* Build configuration list for PBXNativeTarget "Negatives" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F75CEACD365856659B1575 /* Debug */,
+				D86EF5272D008DC28A70AAE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9AB13798945F4D29213F3FCB /* Build configuration list for PBXNativeTarget "Positives" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D5CA7B65424899C2ED63E60 /* Debug */,
+				086FEC1FD6D800A646E7EDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EED809B70D6138CF546BCC18 /* Build configuration list for PBXProject "Darkroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DBFA174677C5FA2B4DC621 /* Debug */,
+				2BD9BE79D45F8DF9EEA2D5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		87008C164D79CC433E43F6CD /* XCLocalSwiftPackageReference "Packages/DarkroomKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/DarkroomKit;
+		};
+		E7AA58F8B17CB09193804D68 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C1A2551380D16787D7AB8BB /* DarkroomUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DarkroomUI;
+		};
+		72304888EDD0795B90F0CEC3 /* PositivesCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PositivesCore;
+		};
+		B2BDF827331B6B0302275D44 /* NegativesCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NegativesCore;
+		};
+		D6CF4D0DA4FD16CFB98720D1 /* DarkroomUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DarkroomUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 452BD6336CBFDB0B4023A8AD /* Project object */;
+}

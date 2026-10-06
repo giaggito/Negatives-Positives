@@ -1,0 +1,5 @@
+module CLibRaw {
+    header "../libraw/libraw.h"
+    link "c++"
+    export *
+}

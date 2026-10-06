@@ -1,0 +1,42 @@
+FilmLooks.lzfse — colour tables of the film looks in Positives
+===============================================================
+
+This file is an adaptation (converted, smoothed of 8-bit quantisation, resampled to 48³ and re-encoded) of
+look-up tables from two collections. Film and brand names are trademarks of their owners; they are used only
+to say which film a look approximates. Neither the authors of these collections nor this project are
+affiliated with or endorsed by the companies that own the trademarks.
+
+1. RawTherapee Film Simulation Collection, version 2015-09-20
+   Authors: Pat David, Pavlov Dmitry, Michael Ezra
+   https://rawpedia.rawtherapee.com/Film_Simulation — https://rawtherapee.com/shared/HaldCLUT.zip
+   Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+   https://creativecommons.org/licenses/by-sa/4.0/
+   Used for every look except Kodak Gold 200, Kodak UltraMax 400 and Kodak ColorPlus 200.
+   As an adaptation, the tables in FilmLooks.lzfse that derive from this collection are themselves licensed
+   under CC BY-SA 4.0.
+
+2. t3mujinpack (Hald CLUTs), by João Almeida
+   https://github.com/t3mujinpack/t3mujinpack
+   Used for Kodak Gold 200, Kodak UltraMax 400 and Kodak ColorPlus 200. Licence (MIT):
+
+   MIT License
+   
+   Copyright (c) 2017 João Almeida
+   
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+   
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+   
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
