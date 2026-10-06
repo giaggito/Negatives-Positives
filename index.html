@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Negatives &amp; Positives: free Mac apps for film photographers</title>
+<meta name="description" content="Two free Mac apps for film photographers. Negatives turns film negatives into photos automatically. Positives is a complete photo editor with a modern, intuitive design inspired by analogue photography.">
+<meta property="og:title" content="Negatives &amp; Positives">
+<meta property="og:description" content="Free Mac apps for film photographers: convert negatives, edit with real film looks.">
+<meta property="og:image" content="https://giaggito.github.io/Negatives-Positives/positives.png">
+<link rel="icon" href="favicon.png">
+<style>
+  :root {
+    --bg: #141414; --panel: #1c1c1c; --line: #2c2c2c; --text: #ececec; --muted: #9a9a9a; --faint: #6a6a6a;
+    --accent: #f4f4f4; --orange: #e58a2e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+  header { text-align: center; padding: 72px 0 40px; }
+  .strip {
+    height: 14px; margin: 0 auto 36px; max-width: 360px; border-radius: 2px;
+    background: repeating-linear-gradient(90deg, var(--orange) 0 18px, transparent 18px 30px);
+    opacity: .85;
+  }
+  h1 { font-size: clamp(34px, 6vw, 56px); line-height: 1.08; margin: 0 0 16px; letter-spacing: -0.02em; font-weight: 700; }
+  .lead { font-size: clamp(18px, 2.4vw, 21px); color: var(--muted); max-width: 680px; margin: 0 auto; }
+  .apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 22px; margin: 28px 0 18px; }
+  .app {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 36px 30px 32px;
+    text-align: center; display: flex; flex-direction: column; align-items: center;
+  }
+  .app img { width: 128px; height: 128px; }
+  .app h2 { font-size: 30px; margin: 18px 0 6px; letter-spacing: -0.01em; }
+  .app .what { color: var(--muted); margin: 0 0 18px; min-height: 3.1em; }
+  .app ul { text-align: left; color: var(--muted); font-size: 15.5px; padding-left: 20px; margin: 0 0 26px; flex: 1; }
+  .app li { margin: 4px 0; }
+  .btn {
+    display: inline-block; background: var(--accent); color: #111; text-decoration: none; font-weight: 650;
+    font-size: 19px; padding: 15px 34px; border-radius: 999px; transition: transform .12s ease, background .12s ease;
+  }
+  .btn:hover { transform: translateY(-1px); background: #fff; }
+  .btn:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
+  .size { color: var(--faint); font-size: 14px; margin-top: 10px; }
+  .facts { text-align: center; color: var(--faint); font-size: 15px; margin: 8px 0 64px; }
+  section.install { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 34px 30px; margin-bottom: 40px; }
+  section.install h2 { margin: 0 0 18px; font-size: 26px; }
+  .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; counter-reset: s; }
+  .step { border-top: 2px solid var(--line); padding-top: 14px; }
+  .step::before { counter-increment: s; content: counter(s); display: block; font-size: 30px; font-weight: 700; color: var(--orange); }
+  .step b { color: var(--text); }
+  .step p { margin: 6px 0 0; color: var(--muted); font-size: 15.5px; }
+  .first { margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--line); }
+  .first h3 { margin: 0 0 8px; font-size: 19px; }
+  .first p, .first li { color: var(--muted); font-size: 15.5px; }
+  .first ol { padding-left: 22px; margin: 8px 0; }
+  footer { color: var(--faint); font-size: 14px; text-align: center; padding: 10px 0 60px; }
+  footer a, .first a { color: var(--muted); }
+  @media (max-width: 520px) { header { padding-top: 48px; } .app { padding: 28px 18px; } section.install { padding: 26px 18px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="strip" aria-hidden="true"></div>
+    <h1>Negatives &amp; Positives</h1>
+    <p class="lead">Two free Mac apps for film photographers. Turn your negatives into photos, and edit every picture with a modern, intuitive editor inspired by analogue photography.</p>
+  </header>
+
+  <div class="apps">
+    <div class="app">
+      <img src="negatives.png" alt="Negatives app icon">
+      <h2>Negatives</h2>
+      <p class="what">Photograph or scan your negatives, open them, done.</p>
+      <ul>
+        <li>Open a whole roll at once</li>
+        <li>Any colour or black &amp; white film</li>
+        <li>Works with camera RAW files and scanner files</li>
+        <li>Natural colours, automatically</li>
+      </ul>
+      <a class="btn" href="https://github.com/giaggito/Negatives-Positives/releases/latest/download/Negatives.dmg">Download Negatives</a>
+      <div class="size">Free · 2 MB</div>
+    </div>
+    <div class="app">
+      <img src="positives.png" alt="Positives app icon">
+      <h2>Positives</h2>
+      <p class="what">A complete photo editor that feels like the darkroom.</p>
+      <ul>
+        <li>Real film looks: Portra, Gold, Fuji, CineStill, Ilford and more</li>
+        <li>Film grain, halation and glow</li>
+        <li>Masks, double exposures and presets</li>
+        <li>Opens RAW files from all major cameras</li>
+      </ul>
+      <a class="btn" href="https://github.com/giaggito/Negatives-Positives/releases/latest/download/Positives.dmg">Download Positives</a>
+      <div class="size">Free · 56 MB</div>
+    </div>
+  </div>
+  <p class="facts">No account · No subscription · Works offline · Mac with Apple silicon (M1 or newer) · macOS 14 Sonoma or newer</p>
+
+  <section class="install" id="install">
+    <h2>How to install</h2>
+    <div class="steps">
+      <div class="step"><p><b>Download</b> the app with the button above. It goes to your Downloads folder.</p></div>
+      <div class="step"><p><b>Open</b> the downloaded file. A small window appears.</p></div>
+      <div class="step"><p><b>Drag</b> the app onto the Applications folder in that window.</p></div>
+      <div class="step"><p><b>Open</b> Applications in the Finder and double-click the app.</p></div>
+    </div>
+    <div class="first">
+      <h3>The first time you open it</h3>
+      <p>The apps are free and made by one person, so they are not registered with Apple. Your Mac asks you to confirm once:</p>
+      <ol>
+        <li>Double-click the app. A message says Apple could not check it. Click <b>Done</b>.</li>
+        <li>Open <b>System Settings</b> → <b>Privacy &amp; Security</b> and scroll down.</li>
+        <li>Click <b>Open Anyway</b> next to the app's name, and enter your Mac password.</li>
+        <li>Click <b>Open</b>. From now on it opens like any other app.</li>
+      </ol>
+      <p>On macOS 14 Sonoma you can also right-click the app → <b>Open</b> → <b>Open</b>.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Giacomo Ancora · Free software under the GNU GPL v3 ·
+    <a href="https://github.com/giaggito/Negatives-Positives">Source code</a> ·
+    <a href="https://github.com/giaggito/Negatives-Positives/issues">Report a problem</a><br>
+    Film and brand names are trademarks of their owners and are used only to say which film a look resembles.
+  </footer>
+</div>
+</body>
+</html>
