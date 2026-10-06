@@ -47,12 +47,12 @@
 		35601EFFBE418373DBA321E0 /* ColorPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPanel.swift; sourceTree = "<group>"; };
 		35FF879D349D2D81DA4FCC05 /* RollModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollModel.swift; sourceTree = "<group>"; };
 		4294C3177DB02B310971002B /* Positives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Positives.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4815E8C0A56CED4AE0788220 /* Negatives */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Negatives; path = .; sourceTree = SOURCE_ROOT; };
 		4D9733D8B89B731100AB577A /* MaskPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskPanel.swift; sourceTree = "<group>"; };
 		6153E185CBB3D96DA13F5CEC /* EditorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorModel.swift; sourceTree = "<group>"; };
 		6A0B7D3E4B52FF313C637A3B /* LayerPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerPanel.swift; sourceTree = "<group>"; };
 		6BFD4E0F497FBD88DC84BED0 /* CurvesPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesPanel.swift; sourceTree = "<group>"; };
 		76F69EBB453448C3C669E8BF /* MaskOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskOverlay.swift; sourceTree = "<group>"; };
+		7E4A9EFBE73FFE898991887E /* Positives-Negatives */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Positives-Negatives"; path = .; sourceTree = SOURCE_ROOT; };
 		8A1929B937FB1589AFA2C205 /* LayerEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerEditing.swift; sourceTree = "<group>"; };
 		8E37F700924AD98E1187ADDD /* MaskEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskEditing.swift; sourceTree = "<group>"; };
 		9AD9C48148A40E145C02F3F3 /* ImageCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCanvas.swift; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				CB2CD6BA5B3ACB5620737A92 /* DarkroomKit */,
-				4815E8C0A56CED4AE0788220 /* Negatives */,
+				7E4A9EFBE73FFE898991887E /* Positives-Negatives */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
