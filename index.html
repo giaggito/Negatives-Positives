@@ -27,13 +27,20 @@
 
   .bar { height: 44px; border-bottom: 1px solid var(--hairline); }
   .bar .in { max-width: 1080px; margin: 0 auto; padding: 0 20px; height: 100%; display: flex; align-items: center; gap: 20px; }
-  .bar .name { font-size: 13px; font-weight: 500; color: var(--secondary); }
+  .bar .name { font-size: 13px; font-weight: 500; color: var(--secondary); display: flex; align-items: center; gap: 6px; }
+  .bar .name img { width: 20px; height: 20px; }
+  .bar .name img + img { margin-right: 4px; }
   .bar nav { margin-left: auto; display: flex; gap: 18px; }
   .bar nav a { font-size: 13px; color: var(--secondary); text-decoration: none; }
   .bar nav a:hover { color: var(--text); }
 
   .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
-  .intro { padding: 64px 0 40px; }
+  .intro { padding: 60px 0 40px; text-align: center; }
+  .icons { display: flex; justify-content: center; gap: 28px; margin-bottom: 30px; }
+  .icons a { display: block; text-align: center; text-decoration: none; }
+  .icons img { width: 148px; height: 148px; display: block; }
+  .icons span { display: block; margin-top: 8px; font-size: 13px; font-weight: 500; color: var(--secondary); }
+  .intro p { margin: 0 auto; }
   .intro h1 { font-size: clamp(28px, 4.2vw, 40px); line-height: 1.15; font-weight: 600; letter-spacing: -0.015em; margin: 0 0 10px; }
   .intro p { color: var(--secondary); font-size: 17px; margin: 0; max-width: 640px; }
 
@@ -95,6 +102,7 @@
     .intro { padding-top: 44px; }
   }
   @media (max-width: 460px) {
+    .icons img { width: 112px; height: 112px; }
     .row { grid-template-columns: 1fr; gap: 0; padding: 6px 0; }
     .steps { grid-template-columns: 1fr; }
     .bar nav a.hide-s { display: none; }
@@ -103,7 +111,7 @@
 </head>
 <body>
 <header class="bar"><div class="in">
-  <span class="name">Positives &amp; Negatives</span>
+  <span class="name"><img src="positives-small.png" alt=""><img src="negatives-small.png" alt="">Positives &amp; Negatives</span>
   <nav>
     <a href="#install">How to install</a>
     <a class="hide-s" href="https://github.com/giaggito/Negatives-Positives">Source code</a>
@@ -113,12 +121,16 @@
 
 <main class="wrap">
   <section class="intro">
+    <div class="icons">
+      <a href="#positives"><img src="positives.png" alt="Positives icon"><span>Positives</span></a>
+      <a href="#negatives"><img src="negatives.png" alt="Negatives icon"><span>Negatives</span></a>
+    </div>
     <h1>Two free Mac apps for photographers.</h1>
     <p>Made with the care of a darkroom: quiet, precise tools that stay out of the way of your pictures.</p>
   </section>
 
   <div class="apps">
-    <article class="app">
+    <article class="app" id="positives">
       <div class="head">
         <img src="positives.png" alt="Positives icon">
         <div>
@@ -149,7 +161,7 @@
       </div>
     </article>
 
-    <article class="app">
+    <article class="app" id="negatives">
       <div class="head">
         <img src="negatives.png" alt="Negatives icon">
         <div>
