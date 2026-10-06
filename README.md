@@ -1,40 +1,43 @@
-<h1 align="center">Negatives &amp; Positives</h1>
+<p align="center">
+  <img src="Apps/Positives/Assets.xcassets/AppIcon.appiconset/icon_256@2x.png" width="160" alt="Positives icon">
+</p>
+
+<h1 align="center">Positives</h1>
 
 <p align="center">
-  <b>Two free Mac apps for film photographers.</b><br>
-  <b>Negatives</b> turns your film negatives into beautiful photos.
-  <b>Positives</b> is a complete photo editor with a modern, intuitive design inspired by analogue photography.
+  <b>The free photo editor for Mac, inspired by analogue photography.</b><br>
+  A complete editor with a modern, intuitive design: real film looks, grain and light, for every photo you take.
 </p>
+
+<p align="center">
+  <a href="https://github.com/giaggito/Negatives-Positives/releases/latest/download/Positives.dmg">
+    <img src="https://img.shields.io/badge/Download-Positives-1f1f1f?style=for-the-badge&logo=apple&logoColor=white" alt="Download Positives" height="52">
+  </a>
+</p>
+
+<p align="center">Free · No account · No subscription · Works offline</p>
 
 <table align="center">
   <tr>
-    <td align="center" width="50%">
-      <img src="Apps/Negatives/Assets.xcassets/AppIcon.appiconset/icon_256@2x.png" width="128" alt="Negatives icon"><br>
-      <h2>Negatives</h2>
-      <p>Photograph or scan your negatives,<br>open them, done.</p>
-      <a href="https://github.com/giaggito/Negatives-Positives/releases/latest/download/Negatives.dmg">
-        <img src="https://img.shields.io/badge/Download-Negatives-1f1f1f?style=for-the-badge&logo=apple&logoColor=white" alt="Download Negatives" height="44">
-      </a>
+    <td align="center">
+      <img src="Apps/Negatives/Assets.xcassets/AppIcon.appiconset/icon_256@2x.png" width="72" alt="Negatives icon">
     </td>
-    <td align="center" width="50%">
-      <img src="Apps/Positives/Assets.xcassets/AppIcon.appiconset/icon_256@2x.png" width="128" alt="Positives icon"><br>
-      <h2>Positives</h2>
-      <p>Edit any photo with real film looks,<br>grain and light.</p>
-      <a href="https://github.com/giaggito/Negatives-Positives/releases/latest/download/Positives.dmg">
-        <img src="https://img.shields.io/badge/Download-Positives-1f1f1f?style=for-the-badge&logo=apple&logoColor=white" alt="Download Positives" height="44">
-      </a>
+    <td>
+      <b>Also free: Negatives</b><br>
+      A simple tool that turns your film negatives into photos.<br>
+      <a href="https://github.com/giaggito/Negatives-Positives/releases/latest/download/Negatives.dmg">Download Negatives</a>
     </td>
   </tr>
 </table>
 
-<p align="center">Free · No account · No subscription · Works offline · For Macs with Apple silicon (M1 or newer), macOS 14 or newer</p>
+<p align="center">For Macs with Apple silicon (M1 or newer), macOS 14 or newer · Easiest download page: <a href="https://giaggito.github.io/Negatives-Positives/">giaggito.github.io/Negatives-Positives</a></p>
 
 ---
 
 ## How to install (2 minutes)
 
-1. Click one of the **Download** buttons above. The file goes to your **Downloads** folder.
-2. Open the downloaded file (**Negatives.dmg** or **Positives.dmg**). A small window appears.
+1. Click the **Download** button above. The file goes to your **Downloads** folder.
+2. Open the downloaded file (**Positives.dmg** or **Negatives.dmg**). A small window appears.
 3. **Drag the app icon onto the Applications folder** in that window.
 4. Open **Applications** in the Finder and double-click the app.
 
@@ -46,26 +49,12 @@ asks you to confirm that you want to open them. You only do this once:
 1. Double-click the app. A message says Apple could not check it. Click **Done** (or **OK**).
 2. Open **System Settings** (the grey gear icon in the Dock, or  menu → System Settings).
 3. Click **Privacy & Security** on the left, then scroll down on the right.
-4. Next to *"Negatives was blocked…"* (or *Positives*), click **Open Anyway**, then type your Mac password.
+4. Next to *"Positives was blocked…"* (or *Negatives*), click **Open Anyway**, then type your Mac password.
 5. Click **Open**. From now on the app opens normally, like any other.
 
 > On macOS 14 Sonoma you can also simply **right-click** the app → **Open** → **Open**.
 
 ---
-
-## Negatives
-
-Turn colour and black &amp; white negatives into positives, automatically.
-
-- **Open a whole roll at once.** Drag a folder of negatives onto the window. Each frame is converted on its own,
-  and the roll is balanced as a whole, the way a good lab prints it.
-- **Any film, any scanner.** Photographed with a camera (RAW files from Fujifilm, Canon, Nikon, Sony, Panasonic,
-  Olympus, Leica, Pentax, DNG and more) or scanned (JPEG, TIFF, PNG, HEIC).
-- **Natural colours without fiddling.** The orange film mask is removed, greys stay grey, and each frame gets the
-  right brightness.
-- **Simple corrections when you want them.** Crop and straighten, rotate, a neutral picker, exposure, warmth and
-  contrast, copy settings to the whole roll.
-- **High-quality export** to JPEG or 16-bit TIFF.
 
 ## Positives
 
@@ -82,6 +71,20 @@ A complete photo editor that feels like the darkroom.
 - **Opens RAW files from all major cameras**, plus JPEG, HEIC, PNG and TIFF. Exports JPEG, TIFF, PNG and HEIC
   at any size, with sharpening for screen or print.
 
+## Negatives
+
+Turn colour and black &amp; white negatives into positives, automatically.
+
+- **Open a whole roll at once.** Drag a folder of negatives onto the window. Each frame is converted on its own,
+  and the roll is balanced as a whole, the way a good lab prints it.
+- **Any film, any scanner.** Photographed with a camera (RAW files from Fujifilm, Canon, Nikon, Sony, Panasonic,
+  Olympus, Leica, Pentax, DNG and more) or scanned (JPEG, TIFF, PNG, HEIC).
+- **Natural colours without fiddling.** The orange film mask is removed, greys stay grey, and each frame gets the
+  right brightness.
+- **Simple corrections when you want them.** Crop and straighten, rotate, a neutral picker, exposure, warmth and
+  contrast, copy settings to the whole roll.
+- **High-quality export** to JPEG or 16-bit TIFF.
+
 ---
 
 ## Questions or problems?
@@ -91,7 +94,7 @@ can, add a screenshot. Suggestions are welcome too.
 
 ## Licence
 
-© 2026 Giacomo Ancora. Negatives and Positives are free software, licensed under the
+© 2026 Giacomo Ancora. Positives and Negatives are free software, licensed under the
 [GNU General Public License, version 3](LICENSE): you may use, share and change them, and anything built from
 them must stay open source under the same licence. They come with no warranty.
 
