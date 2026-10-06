@@ -92,6 +92,11 @@
   .first li { margin: 3px 0; }
   .first p { margin: 0; }
 
+  .support { display: flex; align-items: center; gap: 20px; justify-content: space-between; background: var(--panel); border: 1px solid var(--hairline); border-radius: 10px; padding: 20px 24px; margin-bottom: 16px; }
+  .support h3 { margin: 0 0 4px; font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--secondary); }
+  .support p { margin: 0; font-size: 14px; color: var(--secondary); }
+  .support .btn { flex: none; }
+  @media (max-width: 560px) { .support { flex-direction: column; align-items: flex-start; } }
   footer { border-top: 1px solid var(--hairline); }
   footer .in { max-width: 1080px; margin: 0 auto; padding: 18px 20px 40px; color: var(--tertiary); font-size: 12.5px; }
   footer a { color: var(--secondary); }
@@ -106,6 +111,7 @@
     .row { grid-template-columns: 1fr; gap: 0; padding: 6px 0; }
     .steps { grid-template-columns: 1fr; }
     .bar nav a.hide-s { display: none; }
+    .bar nav { gap: 12px; } .bar .name { font-size: 0; } .bar .name img + img { margin-right: 0; }
   }
 </style>
 </head>
@@ -116,6 +122,7 @@
     <a href="#install">How to install</a>
     <a class="hide-s" href="https://github.com/giaggito/Negatives-Positives">Source code</a>
     <a href="https://github.com/giaggito/Negatives-Positives/issues">Report a problem</a>
+    <a href="https://buymeacoffee.com/ancoragiacg">Buy me a coffee</a>
   </nav>
 </div></header>
 
@@ -193,6 +200,14 @@
   </div>
   <p class="note">For Macs with Apple silicon (M1 or newer) and macOS 14 Sonoma or newer. No account, no subscription, works offline.</p>
 
+  <section class="support">
+    <div>
+      <h3>Support</h3>
+      <p>Both apps are free and will stay free. If they are useful to you, you can buy me a coffee.</p>
+    </div>
+    <a class="btn" href="https://buymeacoffee.com/ancoragiacg">Buy me a coffee</a>
+  </section>
+
   <section class="install" id="install">
     <div class="section">
       <h3>How to install</h3>
@@ -220,7 +235,8 @@
 <footer><div class="in">
   © 2026 Giacomo Ancora · Free software under the GNU GPL v3 ·
   <a href="https://github.com/giaggito/Negatives-Positives">Source code</a> ·
-  <a href="https://github.com/giaggito/Negatives-Positives/issues">Report a problem</a><br>
+  <a href="https://github.com/giaggito/Negatives-Positives/issues">Report a problem</a> ·
+  <a href="https://buymeacoffee.com/ancoragiacg">Buy me a coffee</a><br>
   Film and brand names are trademarks of their owners and are used only to say which film a look resembles.
 </div></footer>
 </body>
