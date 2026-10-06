@@ -1,42 +1,40 @@
-<p align="center">
-  <img src="Apps/Positives/Assets.xcassets/AppIcon.appiconset/icon_256@2x.png" width="160" alt="Positives icon">
-</p>
-
-<h1 align="center">Positives</h1>
+<h1 align="center">Positives &amp; Negatives</h1>
 
 <p align="center">
-  <b>The free photo editor for Mac, inspired by analogue photography.</b><br>
-  A complete editor with a modern, intuitive design: real film looks, grain and light, for every photo you take.
+  <b>Two free Mac apps for photographers.</b><br>
+  <b>Positives</b> is a complete photo editor with a modern, intuitive design inspired by analogue photography.<br>
+  <b>Negatives</b> turns your film negatives into photos, automatically.
 </p>
-
-<p align="center">
-  <a href="https://github.com/giaggito/Negatives-Positives/releases/latest/download/Positives.dmg">
-    <img src="https://img.shields.io/badge/Download-Positives-1f1f1f?style=for-the-badge&logo=apple&logoColor=white" alt="Download Positives" height="52">
-  </a>
-</p>
-
-<p align="center">Free · No account · No subscription · Works offline</p>
 
 <table align="center">
   <tr>
-    <td align="center">
-      <img src="Apps/Negatives/Assets.xcassets/AppIcon.appiconset/icon_256@2x.png" width="72" alt="Negatives icon">
+    <td align="center" width="50%">
+      <img src="Apps/Positives/Assets.xcassets/AppIcon.appiconset/icon_256@2x.png" width="128" alt="Positives icon"><br>
+      <h2>Positives</h2>
+      <p>Edit any photo with real film looks,<br>grain and light.</p>
+      <a href="https://github.com/giaggito/Negatives-Positives/releases/latest/download/Positives.dmg">
+        <img src="https://img.shields.io/badge/Download-Positives-1f1f1f?style=for-the-badge&logo=apple&logoColor=white" alt="Download Positives" height="44">
+      </a>
     </td>
-    <td>
-      <b>Also free: Negatives</b><br>
-      A simple tool that turns your film negatives into photos.<br>
-      <a href="https://github.com/giaggito/Negatives-Positives/releases/latest/download/Negatives.dmg">Download Negatives</a>
+    <td align="center" width="50%">
+      <img src="Apps/Negatives/Assets.xcassets/AppIcon.appiconset/icon_256@2x.png" width="128" alt="Negatives icon"><br>
+      <h2>Negatives</h2>
+      <p>Photograph or scan your negatives,<br>open the roll, done.</p>
+      <a href="https://github.com/giaggito/Negatives-Positives/releases/latest/download/Negatives.dmg">
+        <img src="https://img.shields.io/badge/Download-Negatives-1f1f1f?style=for-the-badge&logo=apple&logoColor=white" alt="Download Negatives" height="44">
+      </a>
     </td>
   </tr>
 </table>
 
-<p align="center">For Macs with Apple silicon (M1 or newer), macOS 14 or newer · Easiest download page: <a href="https://giaggito.github.io/Negatives-Positives/">giaggito.github.io/Negatives-Positives</a></p>
+<p align="center">Free · No account · No subscription · Works offline · For Macs with Apple silicon (M1 or newer), macOS 14 or newer<br>
+Simple download page: <a href="https://giaggito.github.io/Negatives-Positives/">giaggito.github.io/Negatives-Positives</a></p>
 
 ---
 
 ## How to install (2 minutes)
 
-1. Click the **Download** button above. The file goes to your **Downloads** folder.
+1. Click one of the **Download** buttons above. The file goes to your **Downloads** folder.
 2. Open the downloaded file (**Positives.dmg** or **Negatives.dmg**). A small window appears.
 3. **Drag the app icon onto the Applications folder** in that window.
 4. Open **Applications** in the Finder and double-click the app.
